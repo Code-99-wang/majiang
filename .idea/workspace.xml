@@ -4,29 +4,577 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b245b707-5fa6-4e16-ab6a-dc22bc227a9d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/js/npm.js" afterDir="false" />
+    <list default="true" id="b245b707-5fa6-4e16-ab6a-dc22bc227a9d" name="Changes" comment="add index and bootstrap">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_78.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_14_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jdbc_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jdbc_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_relational_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/community" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/community.vpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/CommunityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/advice/CustomizeExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/cache/HotTagCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/cache/QuestionCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/cache/QuestionRateLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/cache/TagCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/controller/AuthorizeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/controller/CustomizeErrorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/controller/NotificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/controller/ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/controller/PublishController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/controller/QuestionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/dto/AccessTokenDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/dto/CommentCreateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/dto/CommentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/dto/FileDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/dto/HotTagDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/dto/NotificationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/dto/PaginationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/dto/QuestionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/dto/QuestionQueryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/dto/ResultDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/dto/TagDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/enums/AdPosEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/enums/CommentTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/enums/NotificationStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/enums/NotificationTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/enums/SortEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/exception/CustomizeErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/exception/CustomizeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/exception/ICustomizeErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/interceptor/SessionInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/interceptor/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/listener/ListenerAsyncConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/listener/QuestionRateLimiterListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/listener/event/QuestionRateLimiterEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/mapper/AdMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/mapper/CommentExtMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/mapper/CommentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/mapper/NavMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/mapper/NotificationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/mapper/QuestionExtMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/mapper/QuestionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/model/Ad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/model/AdExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/model/CommentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/model/Nav.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/model/NavExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/model/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/model/NotificationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/model/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/model/QuestionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/model/UserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/provider/GiteeProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/provider/GithubProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/provider/UFileProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/provider/UFileResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/provider/UFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/provider/dto/GiteeUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/provider/dto/GithubUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/schedule/AvatarFixTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/schedule/HotTagTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/service/AdService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/service/NavService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/service/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/service/QuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/strategy/GiteeUserStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/strategy/GithubUserStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/strategy/LoginUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/strategy/UserStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/strategy/UserStrategyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/java/life/majiang/community/utils/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/db/migration/V10__Create_notification_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/db/migration/V11__Add_name_and_title_to_notification_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/db/migration/V12__Change_id_column_type.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/db/migration/V13__Create_nav_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/db/migration/V14__Create_ad_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/db/migration/V15__Add_sticky_to_question_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/db/migration/V16__Change_avatar_column_type.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/db/migration/V17__Add_type_to_user_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/db/migration/V18__Add_disable_to_user_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/db/migration/V1__Create_user_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/db/migration/V2__Add_bio_col_to_user_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/db/migration/V3__Create_question_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/db/migration/V4__Add_avatar_url_to_user_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/db/migration/V5__Create_comment_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/db/migration/V6__Add_content_to_comment_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/db/migration/V7__Change_id_column_type.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/db/migration/V8__Change_creator_column_type.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/db/migration/V9__Add_comment_count_to_comment_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/mapper/AdMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/mapper/CommentExtMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/mapper/CommentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/mapper/NavMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/mapper/NotificationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/mapper/QuestionExtMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/mapper/QuestionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/css/community.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/css/editormd.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/css/editormd.preview.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/fonts/editormd-logo.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/fonts/editormd-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/fonts/editormd-logo.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/fonts/editormd-logo.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/default-avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/gitee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/hot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/loading@2x.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/loading@3x.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/logos/editormd-favicon-16x16.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/logos/editormd-favicon-24x24.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/logos/editormd-favicon-32x32.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/logos/editormd-favicon-48x48.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/logos/editormd-favicon-64x64.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/logos/editormd-logo-114x114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/logos/editormd-logo-120x120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/logos/editormd-logo-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/logos/editormd-logo-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/logos/editormd-logo-180x180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/logos/editormd-logo-240x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/logos/editormd-logo-24x24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/logos/editormd-logo-320x320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/logos/editormd-logo-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/logos/editormd-logo-48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/logos/editormd-logo-57x57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/logos/editormd-logo-64x64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/logos/editormd-logo-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/logos/editormd-logo-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/logos/vi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/images/official-account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/community.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/editormd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/comment/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/comment/continuecomment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/dialog/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/dialog/dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/display/fullscreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/display/fullscreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/display/panel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/display/placeholder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/display/rulers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/edit/closebrackets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/edit/closetag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/edit/continuelist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/edit/matchbrackets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/edit/matchtags.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/edit/trailingspace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/fold/brace-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/fold/comment-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/fold/foldcode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/fold/foldgutter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/fold/foldgutter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/fold/indent-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/fold/markdown-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/fold/xml-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/hint/anyword-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/hint/css-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/hint/html-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/hint/javascript-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/hint/show-hint.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/hint/show-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/hint/sql-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/hint/xml-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/lint/coffeescript-lint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/lint/css-lint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/lint/javascript-lint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/lint/json-lint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/lint/lint.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/lint/lint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/lint/yaml-lint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/merge/merge.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/merge/merge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/mode/loadmode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/mode/multiplex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/mode/multiplex_test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/mode/overlay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/mode/simple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/runmode/colorize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/runmode/runmode-standalone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/runmode/runmode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/runmode/runmode.node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/scroll/annotatescrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/scroll/scrollpastend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/scroll/simplescrollbars.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/scroll/simplescrollbars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/search/match-highlighter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/search/matchesonscrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/search/matchesonscrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/search/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/search/searchcursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/selection/active-line.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/selection/mark-selection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/selection/selection-pointer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/tern/tern.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/tern/tern.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/tern/worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addon/wrap/hardwrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/addons.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/codemirror.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/codemirror.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/lib/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/lib/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/apl/apl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/apl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/asterisk/asterisk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/asterisk/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/clike/clike.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/clike/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/clike/scala.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/clojure/clojure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/clojure/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/cobol/cobol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/cobol/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/coffeescript/coffeescript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/coffeescript/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/commonlisp/commonlisp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/commonlisp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/css/css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/css/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/css/less.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/css/less_test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/css/scss.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/css/scss_test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/css/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/cypher/cypher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/cypher/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/d/d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/d/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/dart/dart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/dart/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/diff/diff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/diff/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/django/django.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/django/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/dockerfile/dockerfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/dockerfile/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/dtd/dtd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/dtd/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/dylan/dylan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/dylan/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/ebnf/ebnf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/ebnf/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/ecl/ecl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/ecl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/eiffel/eiffel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/eiffel/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/erlang/erlang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/erlang/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/forth/forth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/forth/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/fortran/fortran.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/fortran/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/gas/gas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/gas/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/gfm/gfm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/gfm/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/gfm/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/gherkin/gherkin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/gherkin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/go/go.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/go/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/groovy/groovy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/groovy/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/haml/haml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/haml/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/haml/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/haskell/haskell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/haskell/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/haxe/haxe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/haxe/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/htmlembedded/htmlembedded.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/htmlembedded/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/htmlmixed/htmlmixed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/htmlmixed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/http/http.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/http/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/idl/idl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/idl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/jade/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/jade/jade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/javascript/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/javascript/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/javascript/json-ld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/javascript/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/javascript/typescript.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/jinja2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/jinja2/jinja2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/julia/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/julia/julia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/kotlin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/kotlin/kotlin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/livescript/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/livescript/livescript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/lua/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/lua/lua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/markdown/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/markdown/markdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/markdown/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/meta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/mirc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/mirc/mirc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/mllike/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/mllike/mllike.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/modelica/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/modelica/modelica.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/nginx/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/nginx/nginx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/ntriples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/ntriples/ntriples.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/octave/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/octave/octave.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/pascal/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/pascal/pascal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/pegjs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/pegjs/pegjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/perl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/perl/perl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/php/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/php/php.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/php/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/pig/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/pig/pig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/properties/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/properties/properties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/puppet/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/puppet/puppet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/python/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/python/python.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/q/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/q/q.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/r/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/r/r.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/rpm/changes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/rpm/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/rpm/rpm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/rst/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/rst/rst.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/ruby/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/ruby/ruby.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/ruby/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/rust/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/rust/rust.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/sass/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/sass/sass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/scheme/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/scheme/scheme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/shell/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/shell/shell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/shell/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/sieve/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/sieve/sieve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/slim/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/slim/slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/slim/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/smalltalk/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/smalltalk/smalltalk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/smarty/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/smarty/smarty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/smartymixed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/smartymixed/smartymixed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/solr/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/solr/solr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/soy/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/soy/soy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/sparql/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/sparql/sparql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/spreadsheet/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/spreadsheet/spreadsheet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/sql/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/sql/sql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/stex/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/stex/stex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/stex/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/stylus/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/stylus/stylus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/tcl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/tcl/tcl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/textile/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/textile/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/textile/textile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/tiddlywiki/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/tiddlywiki/tiddlywiki.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/tiddlywiki/tiddlywiki.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/tiki/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/tiki/tiki.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/tiki/tiki.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/toml/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/toml/toml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/tornado/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/tornado/tornado.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/turtle/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/turtle/turtle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/vb/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/vb/vb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/vbscript/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/vbscript/vbscript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/velocity/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/velocity/velocity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/verilog/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/verilog/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/verilog/verilog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/xml/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/xml/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/xml/xml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/xquery/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/xquery/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/xquery/xquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/yaml/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/yaml/yaml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/z80/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/mode/z80/z80.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/modes.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/3024-day.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/3024-night.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/ambiance-mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/ambiance.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/base16-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/base16-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/blackboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/cobalt.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/colorforth.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/eclipse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/elegant.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/erlang-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/lesser-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/mbo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/mdn-like.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/midnight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/monokai.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/neat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/neo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/night.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/paraiso-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/paraiso-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/pastel-on-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/rubyblue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/solarized.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/the-matrix.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/tomorrow-night-bright.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/tomorrow-night-eighties.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/twilight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/vibrant-ink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/xq-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/xq-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/codemirror/theme/zenburn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/flowchart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/jquery.flowchart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/marked.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/prettify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/raphael.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/sequence-diagram.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/lib/underscore.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/plugins/code-block-dialog/code-block-dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/plugins/emoji-dialog/emoji-dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/plugins/emoji-dialog/emoji.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/plugins/goto-line-dialog/goto-line-dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/plugins/help-dialog/help-dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/plugins/html-entities-dialog/html-entities-dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/plugins/html-entities-dialog/html-entities.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/plugins/image-dialog/image-dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/plugins/link-dialog/link-dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/plugins/plugin-template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/plugins/preformatted-text-dialog/preformatted-text-dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/plugins/reference-link-dialog/reference-link-dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/plugins/table-dialog/table-dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/static/js/plugins/test-plugin/test-plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/templates/import.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/templates/navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/templates/notice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/templates/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/templates/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/templates/question.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/main/resources/templates/side.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-master/community-master/src/test/java/life/majiang/community/CommunityApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/learn_pic/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/learn_pic/笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/Controller/AuthorizeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/Controller/PublishController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/DTO/AccessTokenEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/DTO/GithubUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/mapper/QuestionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/mod/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/mod/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/provider/GithubProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/db/migration/V1__Create_user_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/db/migration/V2__create_question_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/css/community.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/publish.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/Controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/Controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/Controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/Controller/IndexController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,21 +584,42 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/MAVEN/maven/apache-maven-3.8.4" />
+        <option name="userSettingsFile" value="C:\Users\王春晖\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="21Igxpy5iXdpgc5sOi75GJxYDiA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -62,16 +631,29 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/demo/src/main/resources/static" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\majiang\demo\src\main\resources\static" />
+      <recent name="F:\majiang\demo\src\main\resources\templates" />
+      <recent name="F:\majiang\demo\src\main\resources\db\migration" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.demo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.DemoApplication">
     <configuration name="CommunityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -81,13 +663,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DemoApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -101,7 +688,12 @@
       <workItem from="1637637683725" duration="6948000" />
       <workItem from="1637646956959" duration="5000" />
       <workItem from="1637649832819" duration="5761000" />
-      <workItem from="1637663753896" duration="502000" />
+      <workItem from="1637663753896" duration="1331000" />
+      <workItem from="1637715858856" duration="20874000" />
+      <workItem from="1637764035975" duration="1952000" />
+      <workItem from="1637802304035" duration="20824000" />
+      <workItem from="1637889192599" duration="2238000" />
+      <workItem from="1637891526223" duration="22162000" />
     </task>
     <servers />
   </component>
@@ -131,5 +723,20 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add index and bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="add index and bootstrap" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="9" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
